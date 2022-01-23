@@ -27,3 +27,9 @@ const restaurant = {
     },
   },
 };
+
+const starter = ['Salad', 'Breadsticks'];
+const main = ['Chicken', 'Beef'];
+
+const full = [...starter, ...main];
+console.log(full);
